@@ -20,7 +20,7 @@ h1{
 	 width: 100px;
 	 padding: 5px;
 	 margin: -3px -3px 0px;
-	 border: 4px solid black;
+	 border: 3.5px solid black;
 	 text-align: center;
 	 font-size: 125%;
 	 font-weight: bold;
@@ -31,7 +31,7 @@ h1{
 	 width: 100px;
 	 padding: 5px;
 	 margin: -3px -3px 0px;
-	 border: 4px solid black;
+	 border: 3.5px solid black;
 	 text-align: center;
 	 font-size: 125%;
 	 font-weight: bold;
@@ -42,54 +42,73 @@ h1{
 	 width: 100px;
 	 padding: 5px;
 	 margin: -3px -3px 0px;
-	 border: 4px solid black;
+	 border: 3.5px solid black;
 	 text-align: center;
 	 font-size: 125%;
 	 font-weight: bold;
 	 background-color: maroon;
 }
 	.cont{
-		padding: 6px;
-		background color: gray;
+		padding: 5px;
+		border: none;
+		background-color: darkgray;
 		color: black;
 		margin: 2.5px;
 		height: 150px;
 		overflow: auto;
 	}
-	.row{ 
-		width: 100%;
+	section{
+		position: relative;
+		padding: 15px;
 	}
-}
+	p{
+		position:relative;
+		clear: right;
+	}
+	div{
+		position: relative;
+		background-color: darkgrey;
+		border: 3.5px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+	}
 /** ----------BIG DEVICES----------**/
 @media (min-width: 992px){
-	.FR,.SR,.TR{
-		float: left;
-	}
 	.FR{
+		float: left;
 		width:33.33%;
 	}
 	.SR{
+		float: left;
 		width:33.33%;
 	}
 	.TR{
+		float: left;
 		width:33.33%;
 	}
 }
 
 /** ----------MEDIUM DEVICES----------**/
 @media (min-width: 768px) and (max-width: 991px){
-	.FR,.SR,.TR {
-		float: left;
+
+	.FR{
+			float: left;
 		margin-left:auto;
 		margin-right:auto;
-	}
-	.FR{
 		width:50%;
 	}
 	.SR{
+			float: left;
+		margin-left:auto;
+		margin-right:auto;
 		width:50%;
 	}
 	.TR{
+			float: left;
+		margin-left:auto;
+		margin-right:auto;
 		width:100%;
 	}
 }
@@ -105,28 +124,29 @@ h1{
 </style>
 </head>
 <body>
-    <h1>Responsive layout</h1>
+    <h1>DEMON SLAYERS</h1>
   <section class="FR">
     	<div>
     		<p class="one">Tanjiro</p>
     		<p class="cont">	
-				In order to soothe the spirits of those it killed, and to make sure it claims no further victims... I will swing my blade down and lop off the head of any demon without mercy! But... I will not belittle those who regret their actions and suffer over the things they did as demons. Because demons were once human. Because they were like me.</p>
+				I hate myself more than anyone. I always think I have to get my act together, but I end up cowering, running away, sniveling. I want to change. I want to be a competent person.
+			</p>
     	</div>
   </section>
   <section class="SR">
     	<div>
     		<p class="two">Inosuke</p>
     		<p class="cont">
-    			Do not cry even if you have regrets! No matter how pathetic or humiliated you feel, you still have to go on living!</p>
+    			I hate myself more than anyone. I always think I have to get my act together, but I end up cowering, running away, sniveling. I want to change. I want to be a competent person.
+    		</p>
     	</div>
   </section>
   <section class="TR">
     	<div>
     		<p class="three">Zenitsu</p>
     		<p class="cont">
-    			I hate myself more than anyone. I always think I have to get my act together, but I end up cowering, running away, sniveling. I want to change. I want to be a competent person.</p>
+    			I hate myself more than anyone. I always think I have to get my act together, but I end up cowering, running away, sniveling. I want to change. I want to be a competent person.
+    		</p>
     	</div>
-  </section>
-
 </body>
 </html> 
